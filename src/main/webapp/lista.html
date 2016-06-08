@@ -1,0 +1,16 @@
+<div id="developers" ng-controller="listaController">
+
+	<h4>Developers List</h4>
+
+	<table class="table">
+		<tr>
+			<th>Name</th>
+			<th>Family</th>
+		</tr>
+		<tr ng-repeat="dev in developers">
+			<td>{{dev.name}}</td>
+			<td>{{dev.family}}</td>
+		</tr>
+	</table>
+
+</div>
